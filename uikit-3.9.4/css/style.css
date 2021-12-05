@@ -1,0 +1,96 @@
+:root {
+  --first-color: #b4132f;
+  --second-color: #333333;
+  --third-color: #525c70;
+  --forth-color: #f7f8fa;
+  --fifth-color: #8895a7;
+}
+
+* {
+  font-family: "Proxima Nova" !important;
+}
+
+.cover-block {
+  margin: 64px 0;
+}
+
+.header {
+  color: var(--first-color);
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.egger {
+  color: var(--second-color);
+}
+
+.cover .description {
+  color: var(--third-color);
+}
+
+.button {
+  background: var(--first-color);
+  border-radius: 2px;
+  font-size: 13px;
+  line-height: 38px;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: bold;
+}
+
+.catalog-block {
+  background-color: var(--forth-color);
+  height: 619px;
+}
+
+.uk-grid {
+  margin-left: -15px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 200;
+  margin-bottom: 30.67px;
+}
+
+.catalog-block {
+  padding-top: 61px;
+}
+
+.catalog-block a {
+  color: var(--first-color);
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  letter-spacing: 1.5px;
+}
+
+.item {
+  width: 270px;
+  height: 395px;
+  border-radius: 2px;
+  margin: 10px;
+}
+
+.item .description {
+  margin: 20px;
+  color: black;
+}
+
+.type {
+  color: var(--third-color);
+  font-size: 14px;
+}
+
+.main-price {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.item .button {
+  color: white;
+}
+
+.catalog-block .all-link {
+  font-size: 20px;
+}
